@@ -29,7 +29,7 @@ export function QRCodeArt({
   className = '',
 }: QRCodeArtProps) {
   const matrix = useMemo(() => {
-    if (!value.trim()) return null;
+    if (typeof value !== 'string' || !value.trim()) return null;
 
     try {
       const levels = {
