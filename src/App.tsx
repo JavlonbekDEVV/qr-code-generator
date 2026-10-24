@@ -9,7 +9,7 @@ import { QRPreview } from "@/components/QRPreview";
 import { History } from "@/components/History";
 import { Features } from "@/components/Features";
 import { HowItWorks } from "@/components/HowItWorks";
-/*import { FAQ } from '@/components/FAQ';*/
+import { FAQ } from '@/components/FAQ';
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 import type { QRConfig } from "@/types";
@@ -181,13 +181,13 @@ function App() {
       <div className="relative z-10">
         <Header />
         <main>
-          {/*<Hero />*/}
+          <Hero />
           {generatorSection}
-          {/*<History />*/}
+          <History />
           <Features />
-          {/*<HowItWorks />*/}
-          {/* <FAQ /> */}
-          {/*<CTA />*/}
+          <HowItWorks />
+          <FAQ />
+          <CTA />
         </main>
         <Footer />
       </div>
