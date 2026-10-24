@@ -8,7 +8,7 @@ import { LogoUploader } from "@/components/LogoUploader";
 import { QRPreview } from "@/components/QRPreview";
 import { History } from "@/components/History";
 import { Features } from "@/components/Features";
-/*import { HowItWorks } from "@/components/HowItWorks";*/
+import { HowItWorks } from "@/components/HowItWorks";
 /*import { FAQ } from '@/components/FAQ';*/
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
